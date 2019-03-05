@@ -1,42 +1,26 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Qubic',
+    subtitle: 'An ultra awesome led cube',
+    link: 'https://www.youtube.com/watch?v=hYixENaxWIQ',
+    image: 'images/projects/qubic.jpg',
+    date: '2018-03-0',
+    desc: 'A 3D Led Cube along with the beautiful apps it runs'
   }, {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    title: 'Chooseats',
+    subtitle: 'An app that helps groups of people decide where to eat',
+    link: 'https://github.com/Gwatcha/chooseats-server',
+    image: 'images/projects/chooseats.jpg',
     date: '2015-09-20',
-    desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    desc: 'An android application with chat rooms, polling system, user profiles, and an aws docker contained api.'
   }, {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
+    title: 'Intelli-Bike',
+    subtitle: 'A very smart bike',
+    link: 'https://github.com/Gwatcha/IntelliBike',
+    image: 'images/projects/intelli-bike.jpg',
     date: '2015-06-28',
-    desc: 'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
+      desc: ' Built a bike with an alarm system, real-time sensor data display, and route tracking. Controlled through a blue-tooth connected android app which would upload route data for display on a website.'
   },
 ];
 
