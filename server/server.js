@@ -1,3 +1,5 @@
+// Entry point
+
 import 'dotenv/config';
 
 import path from 'path';
@@ -13,8 +15,10 @@ const port = process.env.PORT || 7999;
 const env = process.env.NODE_ENV || 'development';
 const basePath = process.env.BASE_PATH || '/';
 
+// express app
 const app = express();
 
+// .use on express app to
 app.use(compress());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
