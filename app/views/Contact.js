@@ -7,20 +7,9 @@ import Main from '../layouts/Main';
 
 import data from '../data/contact';
 
-// Validates the first half of an email address.
-const validateText = (text) => {
-  // NOTE: Passes RFC 5322 but not tested on google's standard.
-  // eslint-disable-next-line no-useless-escape
-  const re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))$/;
-  return re.test(text) || text.length === 0;
-};
-
 const messages = [
-  'michael.ampm',
-  'you can also email me at..',
-  'ampm.michael',
-  'but I prefer',
-  'michael.ampm',
+   '',
+  'michael.ampm@gmail.com',
 ];
 
 const useInterval = (callback, delay) => {
@@ -42,7 +31,7 @@ const useInterval = (callback, delay) => {
 };
 
 const Contact = () => {
-  const hold = 50; // ticks to wait after message is complete before rendering next message
+  const hold = 10; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
   const [idx, updateIter] = useState(0); // points to current message
@@ -79,13 +68,11 @@ const Contact = () => {
           <p>Feel free to get in touch. You can email me at: </p>
           <div
             className="inline-container"
-            style={validateText(message) ? {} : { color: 'red' }}
             onMouseEnter={() => setIsActive(false)}
             onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
           >
-            <a href={validateText(message) ? `mailto:${message}@gmail.com` : ''}>
-              <span>{message}</span>
-              <span>@gmail.com</span>
+            <a href={`mailto:${message}`}>
+          <span>{message}</span>
             </a>
           </div>
         </div>

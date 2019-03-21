@@ -4,14 +4,14 @@ const data = [
     label: 'Michael Muszynski',
     index: true,
   },
-  {
-    path: '/about',
-    label: 'About',
-  },
-  {
-    path: '/resume',
-    label: 'Resume',
-  },
+  // {
+    // path: '/about',
+    // label: 'About',
+  // },
+  // {
+  //   path: '/resume',
+  //   label: 'Resume',
+  // },
   {
     path: '/projects',
     label: 'Projects',

@@ -7,13 +7,11 @@ const Index = () => (
   <Main>
     <article className="post" id="index">
       <p> Welcome to my website. Please feel free to
-        check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
+        check out some {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+        <p> Source available <a href="https://github.com/Gwatcha/PersonalSite">here</a>. </p>
     </article>
   </Main>
 );
