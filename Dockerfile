@@ -1,8 +1,10 @@
 FROM node:latest
 
-WORKDIR /opt/app
+WORKDIR /usr/src/app
 
 COPY package.json .
 RUN yarn install
 COPY . ./
-CMD yarn build
+
+expose 3000
+CMD ["yarn", "dev"]
