@@ -9,9 +9,9 @@ const Index = () => (
       <p> Welcome to my website. Please feel free to
         check out some {' '}
         <Link to="/projects">projects</Link>, {' '}
+        see my <Link to="/resume">resume</Link>,
         or <Link to="/contact">contact</Link> me.
       </p>
-        <p> This sites source is available <a href="https://github.com/Gwatcha/personal-site">here</a>. </p>
     </article>
   </Main>
 );

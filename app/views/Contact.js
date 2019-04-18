@@ -65,7 +65,7 @@ const Contact = () => {
           </div>
         </header>
         <div className="email-at">
-          <p>Feel free to get in touch. You can email me at: </p>
+          <p>Talk to me about anything, really! Just email me at: </p>
           <div
             className="inline-container"
             onMouseEnter={() => setIsActive(false)}

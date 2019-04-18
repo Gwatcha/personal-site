@@ -3,7 +3,7 @@ const data = [
   {
     title: 'Qubic',
     subtitle: 'An ultra awesome led cube',
-      link: 'https://youtu.be/NMP_WU-9wo4',
+    link: 'https://youtu.be/NMP_WU-9wo4',
     image: 'images/projects/qubic.jpg',
     date: '2018-04-5',
     desc: 'A 3D Led Cube, a react-native app, and a QubicHub app store that \

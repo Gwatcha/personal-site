@@ -6,7 +6,7 @@ const positions = [
     daterange: 'September 2017 - February 2018',
     points: [
         'Researched, and discerned a methodology for testing our processors resistance to radiation induced upsets.',
-        'Designed the  software to run whilst under a radiation beam at TRIUMF.',
+        'Designed the software suite to be run whilst under a radiation beam at TRIUMF. (the processor not me)'
     ],
   }, {
     company: 'Winskill Aquatic & Fitness Center',
@@ -15,9 +15,8 @@ const positions = [
     daterange: 'May 2015 - July 2016',
     points: [
         'Planned and taught swimming lessons for toddlers, children, and teens.',
-        'Responsible for maintenance, providing information and service, as well as assuring the safety of 50+ patrons.'
+        'Responsible for assuring the safety of 50+ patrons.'
     ],
-  }, {
   },
 ];
 
