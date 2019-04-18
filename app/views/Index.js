@@ -11,7 +11,7 @@ const Index = () => (
         <Link to="/projects">projects</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-        <p> Source available <a href="https://github.com/Gwatcha/PersonalSite">here</a>. </p>
+        <p> This sites source is available <a href="https://github.com/Gwatcha/personal-site">here</a>. </p>
     </article>
   </Main>
 );

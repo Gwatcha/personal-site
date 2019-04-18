@@ -36,18 +36,16 @@ const Resume = () => (
                 <a href={`#${sec.toLowerCase()}`}>{sec}</a>
               </h4>))}
           </div>
-
         </div>
       </header>
       <Education data={degrees} />
       <Experience data={positions} />
-      <References />
-
+      <References/>
     </article>
   </Main>
 );
 
 export default Resume;
+// <Skills skills={skills} categories={categories} />
+// <Courses data={courses} />
 
-    // <Skills skills={skills} categories={categories} />
-    // <Courses data={courses} />
