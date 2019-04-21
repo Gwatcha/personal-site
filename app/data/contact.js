@@ -7,41 +7,41 @@ import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
 import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
 const data = [
-  {
-    link: 'https://github.com/Gwatcha',
-    label: 'Github',
-    icon: faGithub,
-  },
-  // {
-  //   link: 'https://facebook.com/d',
-  //   label: 'Facebook',
-  //   icon: faFacebook,
-  // },
-  // {
-  //   link: 'https://www.instagram.com/dangelosaurus/',
-  //   label: 'Instagram',
-  //   icon: faInstagram,
-  // },
-  {
-      link: 'https://www.linkedin.com/in/michael-muszynski-329841147/',
-    label: 'LinkedIn',
-    icon: faLinkedinIn,
-  },
-  // {
-  //   link: 'https://angel.co/michael-d-angelo',
-  //   label: 'Angel List',
-  //   icon: faAngellist,
-  // },
-  // {
-  //   link: 'https://twitter.com/dangelosaurus',
-  //   label: 'Twitter',
-  //   icon: faTwitter,
-  // },
-  {
-    link: 'mailto:michael.ampm@gmail.com',
-    label: 'Email',
-    icon: faEnvelope,
-  },
+    {
+        link: 'https://www.linkedin.com/in/michael-muszynski-329841147/',
+        label: 'LinkedIn',
+        icon: faLinkedinIn,
+    },
+    {
+        link: 'https://github.com/Gwatcha',
+        label: 'Github',
+        icon: faGithub,
+    },
+    // {
+    //   link: 'https://facebook.com/d',
+    //   label: 'Facebook',
+    //   icon: faFacebook,
+    // },
+    // {
+    //   link: 'https://www.instagram.com/dangelosaurus/',
+    //   label: 'Instagram',
+    //   icon: faInstagram,
+    // },
+    // {
+    //   link: 'https://angel.co/michael-d-angelo',
+    //   label: 'Angel List',
+    //   icon: faAngellist,
+    // },
+    // {
+    //   link: 'https://twitter.com/dangelosaurus',
+    //   label: 'Twitter',
+    //   icon: faTwitter,
+    // },
+    {
+        link: 'mailto:michael.ampm@gmail.com',
+        label: 'Email',
+        icon: faEnvelope,
+    },
 ];
 
 export default data;
